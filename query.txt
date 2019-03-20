@@ -1,0 +1,21 @@
+select max(A) from table1;
+select min(B) from table2;
+select avg(C) from table1;
+select sum(D) from table2;
+select A,D from table1,table2;
+select distinct C from table1;
+select B,C from table1 where table1.A = -900;
+select A,B from table1 where table1.A=775 OR table1.B=803;
+select * from table1,table2;
+select * from table1,table2 where table1.B=table2.B;
+select A,D from table1,table2 where table1.B=table2.B;
+select table1.C from table1,table2 where table1.A<table2.B;
+select A from table4;
+select Z from table1;
+select B from table1,table2;
+select distinct A,B from table1;
+select table1.C from table1,table2 where table1.A<table2.D OR table1.A>table2.B;
+select table1.C from table1,table2 where table1.A=table2.D;
+select table1.A from table1,table2 where table1.A<table2.B AND table1.A>table2.D;
+select sum(table1.A) from table1,table2;
+
